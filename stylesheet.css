@@ -7,49 +7,66 @@ body
 #container
 {
 	width: 1000px;
-	height: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#head
+#top
 {
-margin-top: 50px;
+	width: 1000px;
+	height: 150px;
 }
 
-#headL
+#content
 {
-float: left;
-width: 200px;
-height: 200px;
-background-color: #4d4d4d;
-text-align: center;
+	width: 1000px;
 }
 
-
-#headR
+#footer
 {
-float: left;
-width: 780px;
-background-color: #4d4d4d;
-color: white;
-font-weight: 700;
-font-size: 50px;
-text-align: center;
-padding-top: 70px;
-padding-bottom: 70px;
+	width: 980px;
+	height: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #000000;
 }
 
-#menu
+.contentIn
 {
-width: 200px;
-height: 630px;
-background-color: #919191;
+	width: 500px;
 }
 
-#insideContent
+.contentLBlock
 {
-width: 780px;
-height: 630px;
-background-color: #919191;
+	width: 220px;
+	height: 180px;
+	background-color: #242fff;
+	float: left;
+	margin: 10px;
+}
+
+#contentRBigBlock
+{
+	margin: 10px;
+	width: 480px;
+	height: 380px;
+	background-color: #919191;
+}
+
+.contentRSmallBlock
+{
+	background-color: red;
+	width: 105px;
+	height: 180px;
+	margin: 10px;
+}
+
+.topIn
+{
+	width: 500px;
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	padding-top: 35px;
 }
