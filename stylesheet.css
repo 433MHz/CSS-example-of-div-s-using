@@ -40,18 +40,27 @@ body
 {
 	width: 220px;
 	height: 180px;
-	background-color: #242fff;
+	background-color: #000dff;
 	float: left;
 	margin: 10px;
+}
+
+.contentLBlock:hover
+{
+	background-color: #3d47ff;
 }
 
 #contentRBigBlock
 {
 	margin: 10px;
-	width: 480px;
-	height: 380px;
+	width: 440px;
+	height: 340px;
 	background-color: #919191;
+	font-size: 20px;
+	padding: 20px;
+	text-align: justify;
 }
+
 
 .contentRSmallBlock
 {
@@ -59,6 +68,11 @@ body
 	width: 105px;
 	height: 180px;
 	margin: 10px;
+}
+
+.contentRSmallBlock:hover
+{
+	background-color: #ff6969;
 }
 
 .topIn
